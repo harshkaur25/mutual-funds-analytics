@@ -1,0 +1,59 @@
+# Day 1 - Mutual Fund Analytics Capstone Project
+
+## Objective
+Set up project environment and perform initial data ingestion and validation of mutual fund datasets.
+
+---
+
+## Tasks Completed
+
+### 1. Project Setup
+- Created structured project folder
+- Configured VS Code environment
+- Initialized Git repository
+
+### 2. Library Installation
+Installed required Python libraries:
+- pandas, numpy
+- matplotlib, seaborn, plotly
+- requests, sqlalchemy, sqlite3, jupyter
+
+---
+
+### 3. Data Collection
+- Downloaded 10 mutual fund datasets
+- Stored them in data/raw
+- Verified dataset integrity
+
+---
+
+### 4. Data Ingestion
+- Loaded all datasets using Pandas
+- Printed shape, datatypes, and sample records
+
+---
+
+### 5. Live NAV Data Integration
+- Fetched NAV data using MF API
+- Retrieved data for multiple mutual fund schemes
+- Stored results as CSV files
+
+---
+
+### 6. Data Validation
+- Performed AMFI code validation between datasets
+- Inspected schema consistency
+- Identified structure alignment for further processing
+
+---
+
+## Observations
+- All datasets loaded successfully
+- NAV API integration worked correctly
+- Dataset structure is consistent for analysis
+- No critical missing data issues found
+
+---
+
+## Status
+Day 1 completed successfully. Data pipeline setup and validation layer implemented
