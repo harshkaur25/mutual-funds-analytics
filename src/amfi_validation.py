@@ -20,5 +20,5 @@ if "amfi_code" in fund_master.columns and "amfi_code" in nav_history.columns:
 
     missing = merged[merged.isnull().any(axis=1)]
     print("\nMissing / Mismatch Records:", len(missing))
-else:
+else:522
     print("\nAMFI column not found directly — need mapping check")
